@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+body {
+    justify-items: center;
+    background-color: rgba(174, 108, 22, 0.404);
+    font-family: "Inconsolata", serif;
+}
+
+header {
+    margin-top: 40px;
+    margin-bottom: 24px;
+    display: flex;
+    padding: 0 10px;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color: rgba(234, 244, 121, 0.341);
+}
+
+header h1 {
+    font-family: "Shadows Into Light", serif;
+    font-size: 56px;
+}
+
+header img {
+    height: 54px;
+}
+
+form {
+    font-size: 24px;
+    height: 30px;
+    padding: 8px;
+    margin-bottom: 32px;
+}
+
+
+form input {
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+}
+
+form button {
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(7, 221, 7, 0.675);
+}
+
+#tittle th {
+    font-size: 24px;
+    border-bottom: 1.5px solid black;
+    padding-right: 140px;
+}
+
+#formulario td {
+    font-size: 18px;
+    border: 1px solid black;
+}

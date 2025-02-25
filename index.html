@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Agenda De Contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="container">
+        <h1><img src="./imagens/emoji cadernoa.png" alt="emoji de um caderno"><b>Agenda de Contatos</b></h1>
+    </header>
+    <form id="form-contato">
+        <input id="contato" type="text" required placeholder="Nome Completo">
+        <input id="telefone" type="tel" required placeholder="(DDD) 99999-9999">
+        <button type="submit">Adicionar +</button>
+    </form>
+    <table cellspacing="0" id="tittle">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody cellspacing="0" id="formulario">
+            <tr>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<script src="./main.js"></script>
+
+</html>
